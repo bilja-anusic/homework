@@ -1,0 +1,14 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Biljana",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.0.2"
+  }
+}
