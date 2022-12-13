@@ -1,0 +1,17 @@
+{
+    "header": {
+        "registerButton":":nth-child(2) > .nav-link"
+    },
+
+    "register": {
+
+        "firstName": "#first-name",
+        "lastName": "#last-name",
+        "email": "#email",
+        "password": "#password",
+        "passwordConfirmation": "#password-confirmation",
+        "terms": ".form-check-input",
+        "button": ".btn"
+
+    }
+}

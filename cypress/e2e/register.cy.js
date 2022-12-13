@@ -14,6 +14,6 @@ describe("Register page test", ()=>{
         cy.get('#password-confirmation').type("12345678")
         cy.get('.form-check-input').click()
         cy.get('.btn').click()
-
+    
     })
 })
