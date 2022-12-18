@@ -1,17 +1,49 @@
 {
-    "header": {
-        "registerButton":":nth-child(2) > .nav-link"
-    },
+"login": {
+    "emailInput": "#email",
+    "passwordInput": "#password",
+    "submitBtn": "button",
+    "pageTitle": ".title-style",
+    "errorAlert": ".alert"
+},
 
-    "register": {
+"header": {
+    "loginBtn": "a[href='/login']",
+    "logoutBtn": ".ml-auto > :nth-child(3) > .nav-link",
+    "createGalleryBtn": ".mr-auto > :nth-child(3) > .nav-link",
+    "allGalleriesBtn": ":nth-child(1) > .nav-link",
+    "registerBtn": ":nth-child(2) > .nav-link"
+},
 
-        "firstName": "#first-name",
-        "lastName": "#last-name",
-        "email": "#email",
-        "password": "#password",
-        "passwordConfirmation": "#password-confirmation",
-        "terms": ".form-check-input",
-        "button": ".btn"
+"register": {
+    "firstName": "#first-name",
+    "lastName": "#last-name",
+    "email": "#email",
+    "password": "#password",
+    "passwordConfirmation": "#password-confirmation",
+    "terms": ".form-check-input",
+    "button": ".btn",
+    "errorAlert": ".alert"
 
-    }
+    
+},
+
+"createGallery":{
+    "title": "#title",
+    "description": "#description",
+    "images": ".input-group > .form-control",
+    "submitBtn": "form > :nth-child(4)",
+    "pageTitle": ".title-style",
+    "addImageBtn": "form > :nth-child(3) > :nth-child(3)"
+
+},
+
+"allGalleries": {
+    "searchInput": ".form-control",
+    "filterBtn": ".input-group-append > .btn",
+    "pageTitle": ".title-style",
+    "loadMoreBtn": ":nth-child(3) > :nth-child(2) > .btn",
+    "galleryElement": ".cell"
 }
+}
+

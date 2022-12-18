@@ -4,7 +4,7 @@ const {faker} = require("@faker-js/faker")
 describe("Register page test", ()=>{
     beforeEach( () => {
         cy.visit('/')
-        cy.get(locators.header.registerButton).click()
+        cy.get(locators.header.registerBtn).click()
     });
 
 
